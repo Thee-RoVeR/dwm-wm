@@ -69,7 +69,7 @@ static const char *fonts[] = {
 
 static const struct arg args[] = {
 	/* function format          argument */
-        { ram_used, " | 󰘚 %s |", "NULL" },
+        { ram_used, "| 󰘚 %s |", "NULL" },
         { datetime, " 󰸘 %s |",           "%a %d-%b-%y" },
 	{ datetime, " 󱑌 %s | ",           "%I:%M %p" },
 };
