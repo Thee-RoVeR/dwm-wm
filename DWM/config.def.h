@@ -1,7 +1,7 @@
 /* See LICENSE file for copyright and license details. */
 
 /* appearance */
-static const float borderpx         = 2.5;        /* border pixel of windows */
+static const float borderpx         = 2.8;        /* border pixel of windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const unsigned int gappx     = 5;       /*gaps between windows*/
 static const int showbar            = 1;        /* 0 means no bar */
@@ -11,7 +11,7 @@ static const char dmenufont[]       = "Jetbrains Mono:size=10";
 static const char col_gray1[]       = "#282828";
 static const char col_gray2[]       = "#928374";
 static const char col_gray3[]       = "#bbbbbb";
-static const char col_gray4[]       = "#282828";
+static const char col_gray4[]       = "#2a2a2a";
 static const char col_cyan[]        = "#83a598";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
@@ -76,7 +76,7 @@ static const Key keys[] = {
 	{ MODKEY,                       XK_h,      setmfact,       {.f = -0.05} },
 	{ MODKEY,                       XK_l,      setmfact,       {.f = +0.05} },
 	{ MODKEY|ShiftMask,             XK_Return, zoom,           {0} },
-	{ MODKEY,                       XK_Tab,    view,           {0} },
+	//{ MODKEY,                       XK_Tab,    view,           {0} },
 	{ MODKEY|ControlMask,           XK_q,      killclient,     {0} },
 	{ MODKEY,                       XK_t,      setlayout,      {.v = &layouts[0]} },
 	{ MODKEY,                       XK_f,      setlayout,      {.v = &layouts[1]} },
