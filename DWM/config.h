@@ -33,8 +33,8 @@ static const Rule rules[] = {
 	 */
 	/* class      instance    title       tags mask     isfloating   monitor */
 	{ "Gimp",     NULL,       NULL,       0,            1,           -1 },
-        { "brave",   NULL,      "brave",     1 << 8,       0,            -1 },
-	{ "brave",   NULL,       NULL,       1,       0,           -1 },
+  { "firefoxdeveloperedition",   NULL,      "firefoxdeveloperedition",     1 << 8,       0,            -1 },
+	{ "firefoxdeveloperedition",   NULL,       "firefoxdeveloperedition",       1,       1,           -1 },
 	{ "code",    NULL,       NULL,       0,            1,           -1 },
 };
 
@@ -98,7 +98,7 @@ static const Key keys[] = {
   { 0,                            XF86XK_AudioMute, spawn, SHCMD("pamixer -t") },
   { 0,                            XF86XK_AudioRaiseVolume, spawn, SHCMD("pamixer -i 5") },
   { 0,                            XF86XK_AudioLowerVolume, spawn, SHCMD("pamixer -d 5") },
-
+  {0,                             XK_Print,                   spawn, SHCMD("flameshot full")},
   TAGKEYS(                        XK_1,                      0)
 	TAGKEYS(                        XK_2,                      1)
 	TAGKEYS(                        XK_3,                      2)
