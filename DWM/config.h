@@ -17,10 +17,12 @@ static const char col_gray2[]       = "#928374";
 static const char col_gray3[]       = "#bbbbbb";
 static const char col_gray4[]       = "#2a2a2a";
 static const char col_cyan[]        = "#83a598";
+static const char col_cyan1[]       = "#282828";
+static const char col_cyan2[]       = "#c8825a";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
-	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
-	[SchemeSel]  = { col_gray4, col_cyan,  col_cyan  },};
+	[SchemeNorm] = { col_gray3, col_gray1, col_gray1 },
+	[SchemeSel]  = { col_gray4, col_cyan,  col_cyan2  },};
 
 /* tagging */
 static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
@@ -35,6 +37,7 @@ static const Rule rules[] = {
   { "firefoxdeveloperedition",   NULL,      "firefoxdeveloperedition",     1 << 8,       0,            -1 },
 	{ "firefoxdeveloperedition",   NULL,       "firefoxdeveloperedition",       1,       1,           -1 },
 	{ "code",    NULL,       NULL,       0,            1,           -1 },
+	{ "Galculator",    NULL,       NULL,       0,            1,           -1 },
 };
 
 /* layout(s) */
