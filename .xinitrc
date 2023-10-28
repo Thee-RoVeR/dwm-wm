@@ -36,11 +36,14 @@ fi
 
 picom -f &
 
+unclutter -idle 5 &
+
 slstatus &
 
 xset s off -dpms 
 
 xwallpaper --zoom ~/Pictures/walls/wall1.jpg &
+
 
 while true; do
 	dwm >/dev/null 2>&1

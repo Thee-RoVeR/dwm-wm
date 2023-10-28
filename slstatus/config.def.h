@@ -64,12 +64,12 @@ static const char unknown_str[] = "n/a";
  * wifi_perc           WiFi signal in percent          interface name (wlan0)
  */
 static const char *fonts[] = {
-    "JetBrainsMono-Bold:size=11:antialias=true"
+  "JetBrainsMono-Bold:size=11:antialias=true"
 };
 
 static const struct arg args[] = {
-	/* function format          argument */
-        { ram_used, "|  %s |", "NULL" },
-        { datetime, " 󰸘 %s |",           "%a %d-%b-%y" },
-	{ datetime, "  %s | ",           "%I:%M %p" },
+  /* function format          argument */
+  { ram_used, "|  %s |", "NULL" },
+//  { datetime, " 󰸘 %s |",           "%a %d-%b-%y" },
+  { datetime, "  %s | ",           "%I:%M %p" },
 };
