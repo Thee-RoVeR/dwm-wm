@@ -2,7 +2,7 @@
 # ~/.bashrc
 #
 
-# If not running interactively, don't do anything
+
 [[ $- != *i* ]] && return
 # Enable command-line auto-completion
 if [ -f /usr/share/bash-completion/bash_completion ]; then
@@ -24,3 +24,6 @@ alias "v"="nvim"
 alias "wifi-off"="sudo nmcli networking off"
 alias "wifi-on"="sudo nmcli networking on"
 alias "htop"="bashtop"
+alias "fff"="fastfetch"
+alias "..."="cd .. && cd .."
+
