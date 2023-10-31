@@ -36,12 +36,6 @@ check_install_paru() {
     done
 }
 
-#base_pkgs(){
-
- #   paru -S picom bashtop bash-completion ranger nvidia-settings xorg-xev xorg-xprop flameshot kitty noto-fonts noto-fonts-cjk noto-fonts-emoji ttf-font-awesome ttf-jetbrains-mono ripgrep unzip npm nodejs neovim clang llvm thunar gvfs fastfetch feh xwallpaper unclutter xorg-xsetroot pamixer dmenu galculator github-cli xclip awesome-terminal-fonts lsd ttf-nerd-fonts-symbols --noconfirm 
- #}
-
-
 git_install
 aur_install
 check_install_paru
