@@ -20,6 +20,8 @@ export EDITOR='nvim'
 #custom alias
 alias "ls"="lsd -al"
 alias ".."="cd .."
+alias "..."="cd .. cd .."
+alias "fff"="fastfetch"
 alias "v"="nvim"
 alias "wifi-off"="sudo nmcli networking off"
 alias "wifi-on"="sudo nmcli networking on"
