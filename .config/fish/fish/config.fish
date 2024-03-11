@@ -112,7 +112,7 @@ alias v 'nvim'
 alias fff 'fastfetch'
 alias ccd 'cd /run/media/rover/'
 alias cds 'cd ~/WorkSpace'
-
+alias cd. 'cd ~/.config'
 
 alias ls 'eza -al --color=always --group-directories-first --icons' # preferred listing
 alias la 'eza -a --color=always --group-directories-first --icons'  # all files and dirs
